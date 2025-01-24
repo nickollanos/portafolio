@@ -1,9 +1,9 @@
-@font-face{
+/* @font-face{
     font-family: 'WorksSans';
     src: url('fonts/TTF/WorksSans-Black.ttf') format('truetype'),
          url('fonts/TTF/WorksSans-Bold.ttf') format('truetype'),
          url('fonts/TTF/WorksSans-Regular.ttf') format('truetype')
-}
+} */
 
 *{
     box-sizing: border-box;
@@ -288,7 +288,7 @@ section.skills{
         margin: auto;
 
         h2{
-            font-size: 40px;
+            font-size: 48px;
             font-family: 'Righteous';
             text-align: center;
             padding: 20px 0;
@@ -307,7 +307,7 @@ section.skills{
                     margin-bottom: 25px;
                 }
 
-                div.skills{
+                div.skill{
 
                     span{
                         font-weight: bold;
@@ -337,7 +337,7 @@ section.skills{
                                 width: 40px;
                                 background-color:#1cb698;
                                 border-radius: 50px;
-                                line-height: center;
+                                line-height: 40px;
                                 text-align: center;
                                 top: -17px;
                                 right: -15px;
@@ -346,7 +346,7 @@ section.skills{
                         }
 
                         /*  estas clases se pondran con javascript */
-                        div.javascript{
+                        .javascript{
                             width: 0%;
                             animation: 2s javascript forwards;
                         }
@@ -364,16 +364,6 @@ section.skills{
                         @keyframes htmlcss {
                             0%{width: 0%;}
                             100%{width: 75%;}
-                        }
-
-                        div.htmlcss{
-                            width: 0%;
-                            animation: 2s htmlcss forwards;
-                        }
-
-                        @keyframes htmlcss {
-                            0%{width: 0%;}
-                            100%{width: 85%;}
                         }
 
                         div.laravel{
@@ -463,7 +453,7 @@ section.skills{
 
                         @keyframes responsabilidad {
                             0%{width: 0%;}
-                            1000%{width: 90%;}
+                            100%{width: 90%;}
                         }
                     }
                 }
