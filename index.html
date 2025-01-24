@@ -13,17 +13,17 @@
             <div class="logo">
                 <a href="#">NICOLAS</a>
             </div>
-            <nav id="nav">
+            <nav id="nav" class="responsive">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portafolio">PORTAFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <img src="img/hamburguesa.svg" alt="hamburguesa">
             </div>
         </header>
@@ -48,7 +48,7 @@
     <!--  SOBRE MI  -->
       <section id="sobremi" class="sobremi">
         <div class="contenido-section">
-            <h2>Sobre Mi</h2>
+            <h2>SOBRE MI</h2>
             <p>
                 <span>
                     Hola, soy Nicolas Llanos
@@ -130,7 +130,7 @@
     <!--  SKILLS  -->
       <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Skills</h2>
+            <h2>SKILLS</h2>
             <div class="fila">
                 <!-- TECNICAL SKILLS  -->
                  <div class="col">
@@ -236,7 +236,7 @@
     <!--  CURRICULUM  -->
       <section class="curriculum" id="curriculum">
         <div class="contenido-seccion">
-            <h2>Curriculum</h2>
+            <h2>CURRICULUM</h2>
             <div class="fila">
                <div class="col izquierda">
                 <h3>Educación</h3>
@@ -312,5 +312,112 @@
             </div>
         </div>
       </section>
+
+    <!--  PORTAFOLIO  -->
+      <section class="portafolio" id="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="proyecto">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="proyecto">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="proyecto">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="proyecto">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="proyecto">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="proyecto">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!--  CONTACTO  -->
+      <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--  FORMULARIO  -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Tu Número de Teléfono">
+                    <input type="text" placeholder="Tu Correo Electrónico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje
+                        <img class="button" src="img/message.svg" alt="message">
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--  MAPA  -->
+                <div class="col">
+                    <img class="ubicacion" src="img/fondo-mapa.png" alt="ubicacion">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <img src="img/location.svg" alt="location">
+                                Manizales - Caldas, Colombia.
+                            </li>
+                            <li>
+                                <img src="img/celphone.svg" alt="celphone">
+                                Contactame: 3207896983
+                            </li>
+                            <li>
+                                <img src="img/correo.svg" alt="correo">
+                                Correo: nico26928@hotmail
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!--  FOOTER  -->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <img src="img/arriba.svg" alt="arriba">
+        </a>
+        <div class="redes">
+            <a href="#"> <img src="img/linkedin.svg" alt="linkedin"></a>
+            <a href="#"> <img src="img/github.svg" alt="github"></a>
+            <a href="#"> <img src="img/email.svg" alt="email"></a>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
