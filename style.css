@@ -74,7 +74,7 @@ div.contenedor-header{
             padding: 5px 10px;
             border-radius: 5px;
             cursor: pointer;
-            display: none;
+            /* display: none; */
         }
     }
 
@@ -345,121 +345,123 @@ section.skills{
                             }
                         }
 
-                        /*  estas clases se pondran con javascript */
-                        .javascript{
-                            width: 0%;
-                            animation: 2s javascript forwards;
-                        }
-
-                        @keyframes javascript {
-                            0%{width: 0%;}
-                            100%{width: 75%;}
-                        }
-
-                        div.htmlcss{
-                            width: 0%;
-                            animation: 2s htmlcss forwards;
-                        }
-
-                        @keyframes htmlcss {
-                            0%{width: 0%;}
-                            100%{width: 75%;}
-                        }
-
-                        div.laravel{
-                            width: 0%;
-                            animation: 2s laravel forwards;
-                        }
-
-                        @keyframes laravel {
-                            0%{width: 0%;}
-                            100%{width: 80%;}
-                        }
-
-                        div.php{
-                            width: 0%;
-                            animation: 2s php forwards;
-                        }
-
-                        @keyframes php {
-                            0%{width: 0%;}
-                            100%{width: 82%;}
-                        }
-
-                        div.mysql{
-                            width: 0%;
-                            animation: 2s mysql forwards;
-                        }
-
-                        @keyframes mysql {
-                            0%{width: 0%;}
-                            100%{width: 75%;}
-                        }
-
-                        div.angular{
-                            width: 0%;
-                            animation: 2s angular forwards;
-                        }
-
-                        @keyframes angular {
-                            0%{width: 0%;}
-                            100%{width: 78%;}
-                        }
-
-                        div.comunicacion{
-                            width: 0%;
-                            animation: 2s comunicacion forwards;
-                        }
-
-                        @keyframes comunicacion {
-                            0%{width: 0%;}
-                            100%{width: 87%;}
-                        }
-
-                        div.trabajoenequipo{
-                            width: 0%;
-                            animation: 2s trabajoenequipo forwards;
-                        }
-
-                        @keyframes trabajoenequipo {
-                            0%{width: 0%;}
-                            100%{width: 85%;}
-                        }
-
-                        div.creatividad{
-                            width: 0%;
-                            animation: 2s creatividad forwards;
-                        }
-
-                        @keyframes creatividad {
-                            0%{width: 0%;}
-                            100%{width: 80%;}
-                        }
-
-                        div.dedicacion{
-                            width: 0%;
-                            animation: 2s dedicacion forwards;
-                        }
-
-                        @keyframes dedicacion {
-                            0%{width: 0%;}
-                            100%{width: 82%;}
-                        }
-
-                        div.responsabilidad{
-                            width: 0%;
-                            animation: 2s responsabilidad forwards;
-                        }
-
-                        @keyframes responsabilidad {
-                            0%{width: 0%;}
-                            100%{width: 90%;}
-                        }
+                        
                     }
                 }
             }
         }
     }
+}
+
+/*  estas clases se pondran con javascript */
+div.progreso.javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+div.htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+div.laravel{
+    width: 0%;
+    animation: 2s laravel forwards;
+}
+
+@keyframes laravel {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+div.php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+
+@keyframes php {
+    0%{width: 0%;}
+    100%{width: 82%;}
+}
+
+div.mysql{
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+
+@keyframes mysql {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+div.angular{
+    width: 0%;
+    animation: 2s angular forwards;
+}
+
+@keyframes angular {
+    0%{width: 0%;}
+    100%{width: 78%;}
+}
+
+div.comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 87%;}
+}
+
+div.trabajoenequipo{
+    width: 0%;
+    animation: 2s trabajoenequipo forwards;
+}
+
+@keyframes trabajoenequipo {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+div.creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+div.dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 82%;}
+}
+
+div.responsabilidad{
+    width: 0%;
+    animation: 2s responsabilidad forwards;
+}
+
+@keyframes responsabilidad {
+    0%{width: 0%;}
+    100%{width: 90%;}
 }
 
 /* curriculum */

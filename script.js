@@ -43,5 +43,6 @@ function efectoHabilidades(){
 
 //defecto el sccrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
+    console.log("Efecto habilidades ejecutado");
     efectoHabilidades();
 }
