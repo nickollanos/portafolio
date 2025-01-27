@@ -51,3 +51,13 @@ window.onscroll = function(){
 function downloadCV() {
     window.location.href = 'img/CV_NicolasLlanos.pdf';
 }
+
+function proyectoOpen(a) {
+    if (a === 1) {
+        window.location.href = "https://gifs-angular1.netlify.app/";
+    } else if ( a === 2) {
+        window.location.href = "https://paises11.netlify.app/countries/by-capital";
+    } else if ( a === 3) {
+        window.location.href = "https://calculadoraangular12.netlify.app/";
+    }    
+}
