@@ -46,3 +46,8 @@ window.onscroll = function(){
     console.log("Efecto habilidades ejecutado");
     efectoHabilidades();
 }
+
+//funcion para descargar cv
+function downloadCV() {
+    window.location.href = 'img/CV_NicolasLlanos.pdf';
+}

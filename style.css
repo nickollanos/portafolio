@@ -657,10 +657,13 @@ section.portafolio{
 
 /* contacto */
 section.contacto{
-    background-image: url(img/fondo-bg.jpg);
+    background-image: url(img/fondo-bg1.jpg);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     div.contenido-seccion{
         max-width: 1100px;
@@ -820,7 +823,6 @@ footer{
         }
 
         div.nav-responsive{
-            border: 5px solid #fff;
             display: block;
         }
 
@@ -837,6 +839,7 @@ footer{
 
             ul{
                 display: block !important;
+                top: 5px;
 
                 il{
                     border-bottom: 1px solid #fff;
@@ -938,4 +941,10 @@ footer{
             }
         }
     } 
+}
+
+@media screen and (min-width: 988px) {
+    .nav-responsive{
+        display: none;
+    }
 }
