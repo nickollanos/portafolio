@@ -960,9 +960,14 @@ footer{
     } */
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:360px){
+
+    div.contenedor-header{
+        width: 400px;
+    }
+
     section.inicio{
-        width: 610px;
+        width: 400px;
 
         div.contenido-banner{
             height: 580px;
@@ -972,7 +977,7 @@ footer{
 
     /* sobre mi */
     section.sobremi{
-        width: 610px;
+        width: 400px;
 
         div.contenido-seccion{
             
@@ -988,7 +993,7 @@ footer{
     
     /* skills */
     section.skills{
-        width: 610px;
+        width: 400px;
         div.contenido-seccion{
             div.fila{
                 display: block;
@@ -1009,7 +1014,7 @@ footer{
 
     /* curriculum */
     section.curriculum{
-        width: 610px;
+        width: 400px;
 
         div.contenido-seccion{
 
@@ -1028,8 +1033,8 @@ footer{
     } 
 
     /* portafolio */
-    section.portfolio{
-        width: 610px;
+    section.portafolio{
+        width: 400px;
 
         div.contenido-seccion{
 
@@ -1050,7 +1055,7 @@ footer{
      
     /* contacto */
     section.contacto{
-        width: 610px;
+        width: 400px;
 
         div.contenido-seccion{
 
@@ -1065,8 +1070,10 @@ footer{
     } 
 
     footer{
-        width: 610px;
+        width: 400px;
     }
+
+    
 }
 
 
