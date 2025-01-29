@@ -942,7 +942,133 @@ footer{
             }
         }
     } 
+
+    /* footer{
+
+        div.contenido-seccion{
+
+            div.fila{
+
+                div.col{
+
+                    img.ubicacion{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    } */
 }
+
+@media screen and (max-width:360px){
+    section.inicio{
+        width: 610px;
+
+        div.contenido-banner{
+            height: 580px;
+            width: 400px;
+        }
+    }
+
+    /* sobre mi */
+    section.sobremi{
+        width: 610px;
+
+        div.contenido-seccion{
+            
+            div.fila{
+                display: block;
+
+                div.col{
+                    width: fit-content;
+                }
+            }
+        }
+    }
+    
+    /* skills */
+    section.skills{
+        width: 610px;
+        div.contenido-seccion{
+            div.fila{
+                display: block;
+
+                div.col{
+                    width: 100%;
+
+                    div.skills{
+
+                        div.barra-skill{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+
+    /* curriculum */
+    section.curriculum{
+        width: 610px;
+
+        div.contenido-seccion{
+
+            div.fila{
+                display: block;
+
+                div.col{
+                    width: 90%;
+                }
+
+                div.derecha{
+                    margin-left: 20px;
+                }
+            }
+        }
+    } 
+
+    /* portafolio */
+    section.portfolio{
+        width: 610px;
+
+        div.contenido-seccion{
+
+            div.galeria{
+                display: block;
+                width: 100%;
+
+                div.proyecto{
+                    max-width: 100%;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    } 
+     
+    /* contacto */
+    section.contacto{
+        width: 610px;
+
+        div.contenido-seccion{
+
+            div.fila{
+                display: block;
+
+                div.col{
+                    width: 100%;
+                }
+            }
+        }
+    } 
+
+    footer{
+        width: 610px;
+    }
+}
+
 
 @media screen and (min-width: 988px) {
     .nav-responsive{
