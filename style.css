@@ -960,7 +960,7 @@ footer{
     } */
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:400px){
     section.inicio{
         width: 610px;
 
